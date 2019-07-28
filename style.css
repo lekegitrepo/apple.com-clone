@@ -15,6 +15,7 @@ body {
 nav#nav-bar {
 	align-items: center;
 	background-color: rgb(120,120,130);
+	background: linear-gradient(0deg, rgb(145,145,155) 0%, rgb(110,110,120) 50%, rgb(95,95,105) 50%, rgb(120,120,130) 100%);
 	border: 1px solid rgb(125,125,125);
     border-radius: 5px;
     box-shadow: 1px 2px 2px rgba(50,50,50,.3);
@@ -44,6 +45,7 @@ ul#menu-list li, .site-map ul li {
 	border: none;
 	border-right: 1px solid grey;
 	color: #fff;
+	cursor: pointer;
 	text-align: center;
 	width: 100%;
 }
@@ -58,9 +60,9 @@ ul#menu-list li, .site-map ul li {
 	position: relative;
 }
 .search-input .fas {
-	left: 12px;
+	left: 8%;
 	position: absolute;
-	top: 4px;
+	top: 25%;
 }
 .search-input input {
 	background: none;
