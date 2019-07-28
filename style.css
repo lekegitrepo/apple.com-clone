@@ -2,8 +2,13 @@
 *{
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0px;
 	padding: 0px;
+}
+li {
+	list-style: none;
+}
+ul#menu-list li, .site-map ul li {
+	display: inline-block;
 }
