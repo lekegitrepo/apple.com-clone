@@ -6,9 +6,24 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+#main-content {
+	color: #fff;
+	margin: 6% 2%;
+	position: absolute;
+	width: 100%;
+}
+nav#nav-bar {
+	display: flex;
+	height: 34px;
+	margin: auto;
+	width: 90%;
+}
 li {
 	list-style: none;
 }
 ul#menu-list li, .site-map ul li {
 	display: inline-block;
+}
+.fab, .fas {
+	color: #fff;
 }
