@@ -112,11 +112,16 @@ a {
 	height: 95px;
 }
 #page-banner {
-	/*display: grid;
-	grid-template: auto 200px 1fr 1fr 1fr 1fr;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 520px 210px;
+	grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    overflow: hidden;
 }
 #banner-image {
 	background: url(images/your_verse_hero.jpg);
+	background-color: yellow;
 	width: 100%;
     height: 69vh;
     min-height: 520px;
@@ -124,18 +129,43 @@ a {
     display: block;
     margin-right: 2px;
     margin-bottom: 2px;
-    /*grid-area: bg / 1 / bg / 5;
-    grid-column: 1 / 5;*/
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.promo-image {
+	width: 5px;
 }
 #image-1 {
-	grid-area: rt1 / rt1 / rt1 / rt1;
+	background-color: purple;
+	height: 200px;
+	grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
-/*#image-2 {
-	grid-area: rt2 / rt2 / rt2 / rt2;
+#image-2 {
+	background-color: cyan;
+	height: 200px;
+	grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 #image-3 {
-	grid-area: rt3 / rt3 / rt3 / rt3;
+	background-color: magenta;
+	height: 200px;
+	grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 #image-4 {
-	grid-area: rt4 / rt4 / rt4 / rt4;
-}*/
+	background-color: purple;
+	height: 200px;
+	grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
