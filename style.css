@@ -6,11 +6,14 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+#container {
+	display: flex;
+	justify-content: center;
+}
 #main-content {
 	color: #fff;
 	margin: 6% 2%;
 	position: absolute;
-	width: 100%;
 }
 nav#nav-bar {
 	align-items: center;
@@ -89,6 +92,7 @@ ul#menu-list li, .site-map ul li {
 }
 .search-input input:focus {
 	background-color: #fff;
+	outline: none;
 	width: 150px;
 
 	-webkit-transition: all 0.5s ease;
@@ -99,12 +103,20 @@ ul#menu-list li, .site-map ul li {
 a {
     text-decoration: none;
 }
+#main-links {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 #last-link {
-	background-image: url(images/third-1.png);
+	background-repeat: no-repeat;
     height: 31px;
+    width: 100%;
 }
 #last-link:hover {
 	background-image: url(images/third-2.png);
+	background-repeat: no-repeat;
 	cursor: pointer;
 	text-decoration-line: underline;
 }
@@ -115,27 +127,27 @@ a {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 520px 210px;
-	grid-row-gap: 20px;
-    grid-column-gap: 20px;
     overflow: hidden;
 }
 #banner-image {
-	background: url(images/your_verse_hero.jpg);
+	background: url(images/your_verse_hero.jpg) 50% 97.5% no-repeat;
+	border-bottom: 2px solid #fff;
 	background-color: yellow;
-	width: 100%;
-    height: 69vh;
-    min-height: 520px;
-    max-height: 1180px;
-    display: block;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    grid-column-start: 1;
+	grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 69vh;
+    min-height: 520px;
+    max-height: 1180px;
+    width: 100%;
 }
 .promo-image {
-	width: 5px;
+	border-left: 2px solid #fff;
+}
+.promo-image img {
+	height: 100%;
+	width: 100%;
 }
 #image-1 {
 	background-color: purple;
