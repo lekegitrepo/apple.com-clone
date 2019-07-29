@@ -181,3 +181,7 @@ a {
     grid-row-start: 2;
     grid-row-end: 3;
 }
+#footer-links {
+	display: flex;
+	justify-content: space-between;
+}
