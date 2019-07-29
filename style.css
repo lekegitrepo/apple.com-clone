@@ -190,6 +190,7 @@ footer {
 	color: #6e6e6e;
 	margin: 0 auto;
     padding: 1em 0 2.6em;
+    position: relative;
     width: 90%;
 }
 #footer-links {
@@ -202,4 +203,9 @@ footer {
 }
 .site-map-links ul li {
 	display: inline-block;
+}
+.site-map-links ul li a img {
+	position: absolute;
+	top: 8px;
+    right: -16px;
 }
