@@ -96,10 +96,6 @@ ul#menu-list li, .site-map ul li {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-/*#last-link a {
-	background-repeat: no-repeat;
-	height: 30px;
-}*/
 a {
     text-decoration: none;
 }
@@ -115,3 +111,31 @@ a {
 #first-link {
 	height: 95px;
 }
+#page-banner {
+	/*display: grid;
+	grid-template: auto 200px 1fr 1fr 1fr 1fr;*/
+}
+#banner-image {
+	background: url(images/your_verse_hero.jpg);
+	width: 100%;
+    height: 69vh;
+    min-height: 520px;
+    max-height: 1180px;
+    display: block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    /*grid-area: bg / 1 / bg / 5;
+    grid-column: 1 / 5;*/
+}
+#image-1 {
+	grid-area: rt1 / rt1 / rt1 / rt1;
+}
+/*#image-2 {
+	grid-area: rt2 / rt2 / rt2 / rt2;
+}
+#image-3 {
+	grid-area: rt3 / rt3 / rt3 / rt3;
+}
+#image-4 {
+	grid-area: rt4 / rt4 / rt4 / rt4;
+}*/
