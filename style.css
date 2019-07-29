@@ -96,3 +96,22 @@ ul#menu-list li, .site-map ul li {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+/*#last-link a {
+	background-repeat: no-repeat;
+	height: 30px;
+}*/
+a {
+    text-decoration: none;
+}
+#last-link {
+	background-image: url(images/third-1.png);
+    height: 31px;
+}
+#last-link:hover {
+	background-image: url(images/third-2.png);
+	cursor: pointer;
+	text-decoration-line: underline;
+}
+#first-link {
+	height: 95px;
+}
