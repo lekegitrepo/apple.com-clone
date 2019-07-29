@@ -181,7 +181,17 @@ a {
     grid-row-start: 2;
     grid-row-end: 3;
 }
+footer {
+	font-size: .8334em;
+    line-height: 1.2;
+}
 #footer-links {
 	display: flex;
 	justify-content: space-between;
+}
+.site-map-links ul {
+	margin: 0px;
+}
+.site-map-links ul li {
+	display: inline-block;
 }
